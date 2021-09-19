@@ -1,0 +1,16 @@
+.odd-rows{
+    background-color: pink;
+    font-family: "Verdana","Times New Roman", sans-serif;
+}
+.second-row{
+    color: blue;
+    font-size: 36px;
+}
+.big-text{
+    font-size: 24px;
+}
+.fourth-row{
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+}
