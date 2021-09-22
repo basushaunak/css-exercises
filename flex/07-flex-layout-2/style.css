@@ -5,13 +5,16 @@ body {
 }
 
 .header {
-  height: 72px;
+  font-size: 32px;
+  height: 1.5em;
+  padding: 0px 10px;
+  font-weight: bold;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  height: 1.5em;
   background: #eee;
   color: darkmagenta;
 }
@@ -19,10 +22,35 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  height: auto;
+  margin: 25px;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardset{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
